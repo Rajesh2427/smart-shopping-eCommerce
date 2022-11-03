@@ -1,0 +1,51 @@
+.box{
+    overflow-y: scroll;
+}
+
+.box-category{
+    width :max-content;
+    height : auto;
+    /* border: 1px solid black; */
+    position: relative;
+    margin-right: 10px;
+}
+
+
+
+.title{
+    width :max-content;
+    height : 45px;
+    border: 3px solid black;
+    border-radius: 10px;
+    background-color: #F1F0F0;
+    
+}
+
+.title h6 {
+    padding-left: 10px;
+    padding-right: 100px;
+ 
+}
+
+
+.image{
+    background: rgb(255,255,255);
+background: linear-gradient(90deg, rgba(255,255,255,0.17440479609812676) 62%, rgba(255,255,255,0.7794468129048494) 68%, rgba(255,255,255,1) 87%);
+    position: absolute;
+    /* border: 1px solid black; */
+  right: 0;   
+   
+    
+
+}
+
+::-webkit-scrollbar {
+    width: 0px;
+    height: 0px;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: rgb(114, 113, 113);
+    border-radius: 10px;
+    height: 20px;
+  }

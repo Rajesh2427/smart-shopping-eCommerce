@@ -1,0 +1,7 @@
+#searchinput {
+    border: 0px solid;
+}
+
+#searchinput:focus {
+      box-shadow: none;
+}

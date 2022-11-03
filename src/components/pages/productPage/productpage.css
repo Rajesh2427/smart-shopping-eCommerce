@@ -1,0 +1,31 @@
+
+
+
+
+
+
+.mini-image {
+    width: auto;
+    height: auto;
+    
+    border-radius: 15px;
+    
+}
+.main-image{
+    width: 60vh;
+    height: 55vh;
+ 
+   
+}
+.slide-images{
+    width: auto ;
+    height: auto ;
+}
+.product-details{
+    width: 50vh;
+    height: auto;
+ 
+   
+}
+
+

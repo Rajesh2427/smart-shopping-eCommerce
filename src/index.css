@@ -8,6 +8,35 @@ body {
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  font-family: 'Courier New',
     monospace;
+}
+
+@media only screen and (min-width: 500px) {
+  .checkout {
+   
+ 
+    align-self: flex-center;
+  }
+}
+
+@media only screen and (max-width: 766px) {
+  .cartitems {
+   
+ 
+    width: 100%;
+  }
+}
+
+@media only screen and (min-width: 766px) {
+  .checkout {
+    margin-right: 20px;
+    max-height: 100vh;
+   
+  }
+}
+@media only screen and (min-width: 766px) {
+ .cartmain{
+  align-items: start;
+ }
 }
