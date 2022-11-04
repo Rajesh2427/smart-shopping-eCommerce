@@ -15,6 +15,7 @@ import ProductList from './components/ProductList';
 
 
 import Signup from './components/signup/Signup';
+import Footer from './components/Footer';
 
 function App() {
   return (
@@ -33,7 +34,7 @@ function App() {
       
     </Routes>
     
-    
+   <Footer/>
     
     
     
