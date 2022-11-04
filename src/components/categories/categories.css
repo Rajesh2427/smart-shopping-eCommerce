@@ -1,5 +1,7 @@
 .box{
-    overflow-y: scroll;
+    overflow-x: scroll;
+    width: 100%;
+   
 }
 
 .box-category{
@@ -41,11 +43,11 @@ background: linear-gradient(90deg, rgba(255,255,255,0.17440479609812676) 62%, rg
 
 ::-webkit-scrollbar {
     width: 0px;
-    height: 0px;
+    height: 1px;
   }
   
   ::-webkit-scrollbar-thumb {
-    background-color: rgb(114, 113, 113);
+    background-color: rgb(215, 112, 23);
     border-radius: 10px;
     height: 20px;
   }

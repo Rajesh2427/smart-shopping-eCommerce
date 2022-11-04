@@ -1,6 +1,5 @@
 import React from 'react'
 import Banner from './Banner/Banner'
-import SearchBar from './navbar/SearchBar'
 
 import ProductList from './ProductList'
 

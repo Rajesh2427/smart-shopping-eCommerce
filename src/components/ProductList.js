@@ -1,4 +1,4 @@
-import {React, useEffect, useState} from 'react'
+import {React, useEffect} from 'react'
 import { useDispatch, useSelector } from 'react-redux'
 import { fetchProducts } from '../features/productsSlice'
 
@@ -21,7 +21,7 @@ const ProductList = () => {
   if(products.loading) return 'Loading...'
   return (
      
-      <div  style={{display:'flex', flexWrap:'wrap', gap:'10px', padding:'10px', width:'100%',  justifyContent:'center'}}>
+      <div  style={{display:'flex', marginTop:'20px', padding:'10px', width:'100%',  justifyContent:'center'}}>
        <ProductCard products={products}/>
        
       </div>

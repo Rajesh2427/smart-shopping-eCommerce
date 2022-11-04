@@ -12,9 +12,9 @@ import Storage from '../../assets/category/Storage.png'
 
 const Categories = () => {
   return (
-    <div className='container-sm container-md container-lg'>
-      <h6 className='text-start '>Categories</h6>
-      <div className=' d-flex container-sm container-md container-lg box'>
+    <div className='w-100' style={{display:'flex', flexDirection:'column', alignItems:'center'}}>
+      <h6 className='text-start align-self-start'>Categories</h6>
+      <div className=' d-flex container-fluid box'>
      <Category title={'Laptops'} image={Laptop}/>
      <Category title={'Camera'} image={Camera}/>
      <Category title={'TV'} image={TV}/>
@@ -32,8 +32,8 @@ export default Categories
 function Category ({title, image}){
  return (
  
-  <NavLink to={`/categories/${title}`} className='text-decoration-none' style={{height:'70px'}}  >
-  <div className='box-category  d-flex align-items-center '>
+  <NavLink to={`/categories/${title}`} className='text-decoration-none container-fluid' style={{height:'70px'}}  >
+  <div className='box-category   d-flex align-items-center '>
     <div className='title d-flex  text-start align-items-center '><h6 >{title}</h6> </div>
     <div className='image'>
           <img src={image} alt='title' />

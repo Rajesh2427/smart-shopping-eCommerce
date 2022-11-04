@@ -18,7 +18,7 @@ const Header = () => {
     <nav className="navbar navbar-expand-md navbar-light bg-light mb-3" aria-label="Third navbar example">
     <div className="container-fluid">
       <Link className="navbar-brand" to='/'>
-        <img src={logo} alt='smart shopping' width='200px' />
+        <img src={logo} alt='smart shopping' width='150px' height='60px' />
       </Link>
       <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample03" aria-controls="navbarsExample03" aria-expanded="false" aria-label="Toggle navigation">
         <span className="navbar-toggler-icon"></span>
